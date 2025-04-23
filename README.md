@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amplify WebApp Sample
 
-## Available Scripts
+This repository was created as a sample project for testing and learning deployment with cloud platforms, including AWS and Azure. It demonstrates how to set up a basic web application and deploy it to cloud services.
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+This project serves as a practical example to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Learn the basics of cloud deployment.
+- Explore deployment workflows using **AWS Amplify** and **Azure Static Web Apps**.
+- Test deployment pipelines for web applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+Follow these steps to set up the project locally and deploy it to the cloud platform of your choice.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js and npm installed on your local machine.
+- An AWS account for deploying to AWS Amplify.
+- An Azure account for deploying to Azure Static Web Apps.
+- Basic knowledge of JavaScript, HTML, and CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Local Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mukhtaryasin/amplify-webapp-sample.git
+   cd amplify-webapp-sample
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deployment with AWS Amplify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Log in to the [AWS Management Console](https://aws.amazon.com/console/).
+2. Navigate to **AWS Amplify**.
+3. Connect the repository to Amplify by selecting the repository and branch.
+4. Configure the build settings and deploy the application.
+5. Access your deployed application through the Amplify-provided URL.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Deployment with Azure Static Web Apps
 
-## Learn More
+1. Log in to the [Azure Portal](https://portal.azure.com/).
+2. Navigate to **Static Web Apps** and create a new Static Web App.
+3. Connect the repository to Azure by selecting the repository and branch.
+4. Configure build settings and deploy the application.
+5. Access your deployed application through the Azure-provided URL.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Languages and Tools
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **JavaScript** (47.6%)
+- **HTML** (34%)
+- **CSS** (18.4%)
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This repository is for learning purposes only. Contributions are welcome for improving the setup instructions or deployment workflows.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you'd like me to add or modify any section!
